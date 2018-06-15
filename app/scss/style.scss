@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-@import url('../fonts/glober/*');
+
+@font-face {
+font-family: 'Glober';
+src: url('../fonts/glober/Glober Thin Free.otf') format('opentype');
+font-weight: normal;
+font-style: normal; }
+
+@font-face {
+font-family: 'Glober';
+src: url('../fonts/glober/Glober SemiBold Free.otf') format('opentype');
+font-weight: bold;
+font-style: normal; }
 
 body{
-    font-family: "Glober", "Roboto", "sans-serif";}
+    font-family: "Glober", "Roboto", "sans-serif"; }
