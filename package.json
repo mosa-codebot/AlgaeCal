@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/mosa-codebot/algaecal#readme",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "browser-sync": "^2.24.4",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
   }
 }
