@@ -1,2 +1,4 @@
 # algaecal
-AlgaeCal skills test repository
+AlgaeCal Skills Test 
+
+Author: Mosa Adekunle
