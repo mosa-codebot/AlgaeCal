@@ -11,9 +11,13 @@
   font-weight: bold;
   font-style: normal; }
 
+h3 {
+  color: #008ba4;
+  font-weight: bold; }
+
 body {
   font-family: "Glober", "Roboto", "sans-serif";
-  font-size: 18px; }
+  font-size: 16px; }
 
 header {
   color: #000;
@@ -32,3 +36,55 @@ header {
   font-size: 30px;
   font-weight: bold;
   text-align: center; }
+
+.endorsement-box {
+  box-shadow: 1px 1px 10px #000;
+  padding-bottom: 20px; }
+
+.endorsement-box img {
+  margin: 10px 10px; }
+
+.endorsement-box .amazon-img {
+  margin-top: 20px; }
+
+.endorsement-row-larger {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+footer {
+  color: #000;
+  text-align: center; }
+
+footer a {
+  color: #212121; }
+
+#footer-copy {
+  margin-top: 10px;
+  color: #000; }
+
+.view-reference-link {
+  margin-left: 20px; }
+
+.book {
+  float: left; }
+
+.book-text {
+  float: left;
+  font-size: 14px; }
+
+#as-seen-on {
+  background-color: green;
+  color: #fff;
+  font-size: 25px;
+  padding: 9px 0 1px 15px;
+  margin-bottom: 0;
+  font-weight: bold; }
+
+#stronger-bones {
+  font-weight: bold;
+  color: #e47832;
+  text-align: center; }
+
+@media (max-width: 767px) {
+  #as-seen-on {
+    text-align: center; } }
