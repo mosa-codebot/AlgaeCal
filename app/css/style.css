@@ -11,13 +11,19 @@
   font-weight: bold;
   font-style: normal; }
 
+body {
+  font-family: "Glober", "Roboto", "sans-serif";
+  font-size: 17px; }
+
 h3 {
   color: #008ba4;
   font-weight: bold; }
 
-body {
-  font-family: "Glober", "Roboto", "sans-serif";
-  font-size: 16px; }
+.bold {
+  font-weight: bold; }
+
+.padding-top-25 {
+  padding-top: 15px !important; }
 
 header {
   color: #000;
@@ -25,17 +31,49 @@ header {
   font-weight: bold;
   font-size: 16px; }
 
+#header-logo {
+  margin-left: -10px; }
+
 .header-legend {
   margin-top: 10px;
-  font-size: 20px; }
+  font-size: 25px;
+  font-weight: bold; }
 
 .top-banner {
-  background-color: #4c813d;
-  padding: 25px;
+  background: url("../images/green-bg.png");
+  background-size: cover;
+  padding: 20px 10px;
   color: #fff;
-  font-size: 30px;
+  font-size: 29px;
   font-weight: bold;
-  text-align: center; }
+  text-align: left; }
+
+.top-banner span {
+  font-size: 35px; }
+
+top-banner-slogan {
+  text-align: left;
+  padding: 0 20px; }
+
+.slogan {
+  font-size: 23px; }
+
+#bone-specialist {
+  color: #000;
+  display: none;
+  text-decoration: none; }
+
+#package-bundles {
+  display: none; }
+
+#guarantee-inner {
+  background-color: #fff;
+  padding: 30px; }
+
+.white-line {
+  height: 8px;
+  width: 60px;
+  margin-top: -7px; }
 
 .endorsement-box {
   box-shadow: 1px 1px 10px #000;
@@ -50,6 +88,18 @@ header {
 .endorsement-row-larger {
   padding-top: 10px;
   padding-bottom: 10px; }
+
+.endorsement-row-xs {
+  margin-bottom: 10px; }
+
+#references-div {
+  padding: 0 20px;
+  word-break: break-all; }
+
+.green-bg-container {
+  background: url("../images/green-bg.png");
+  background-size: cover;
+  padding: 30px; }
 
 footer {
   color: #000;
@@ -85,6 +135,39 @@ footer a {
   color: #e47832;
   text-align: center; }
 
+.supplemental-facts-box {
+  border: 3px solid #000;
+  padding: 20px 10px 0px 10px;
+  font-weight: bold; }
+
+.supplemental-facts-box h3 {
+  color: #000;
+  text-align: center;
+  font-size: 32px; }
+
+.supplemental-facts-box .table td, .table th {
+  padding: 5px 0;
+  border-top: none; }
+
+.supplemental-facts-box .table tr:nth-child(1), .supplemental-facts-box .table tr:nth-child(7), .supplemental-facts-box .table tr:nth-child(8) {
+  border-top: 15px solid #000; }
+
+.supplemental-facts-box-2 .table tr:nth-child(3) {
+  border-top: 15px solid #000; }
+
+.supplemental-facts-box .table tr:nth-child(7) {
+  padding-top: 25px; }
+
+.supplemental-facts-box .table tr:nth-child(2) {
+  border-top: 7px solid #000; }
+
+.supplemental-facts-box .table td:nth-child(2) {
+  text-align: right; }
+
 @media (max-width: 767px) {
   #as-seen-on {
-    text-align: center; } }
+    text-align: center; }
+  .book-text {
+    font-size: 12px; }
+  .slogan {
+    font-size: 21px; } }
